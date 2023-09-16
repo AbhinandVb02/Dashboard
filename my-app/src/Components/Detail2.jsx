@@ -6,13 +6,13 @@ function Detail2() {
     return (
         <div>
             <div className='details2' >
-                <ol className='ol' style={{ width: '180px' }}>
+                <ol className='deatil2ol1'>
                     <button className='buttondown1-2'>Free Forever</button>
                     <li className='detailhead'>Free Smarter</li>
                     <li className='listpara'>The quickest and easiest way to try Protocols with basic functionaliies</li>
                     <button className='buttondown1'>Get Started &#10141;</button>
                 </ol>
-                <ol className='ol' style={{ width: '220px',textAlign:'left' }}>
+                <ol className='deatil2ol2' style={{textAlign:'left' }}>
                     <li className='listpara'>What you'll get :</li>
                     <li className='listpara'><AiOutlineUser/> &nbsp;Upto 8 Users</li>
                     <li className='listpara'><AiOutlineCloudDownload/> &nbsp;Upto 30gb Storage</li>
@@ -22,13 +22,13 @@ function Detail2() {
             </div>
 
             <div className='details2' >
-                <ol className='ol' style={{ width: '200px' }}>
+                <ol className='deatil2ol1-1'>
                     <button className='buttondown2-2'>Let's Connect</button>
                     <li  className='detailhead'>Enterprise Plan</li>
                     <li className='listpara'>Effortlessly customize and fine-tune services as your needs shift, ensuring the perfect tools for success</li>
                     <button className='buttondown2'>Contact Us &#10141;</button>
                 </ol>
-                <ol className='ol' style={{ width: '220px',marginTop:'45px' }}>
+                <ol className='deatil2ol2-2' >
                     <li className='listpara'>What you'll get :</li>
                     <li className='listpara'><AiOutlineUser/> &nbsp;More than 75 Users</li>
                     <li className='listpara'><BsCheckAll/> &nbsp;Customization of all other features</li>

@@ -8,7 +8,7 @@ function Data() {
 
 
     return (
-        <div className='d-flex flex-wrap'>
+        <div>
             <div className='datadiv'>
               <span >
               <h2 className='headh2'>Choose a Plan that's just right for you !</h2>
@@ -17,13 +17,13 @@ function Data() {
                  <Button className='topplanbutton'>Annually <sup style={{color:'green',fontWeight:'400'}}>-10%</sup></Button>
                 </ol>
               </span>
-                <div className='d-flex flex-wrap datadivsub'>
+                <div className='d-flex datadivsub'>
                 <div className='pricedetail'>
                                 <ol className='ol' >
                                     <li className='olstyle ' style={{ fontSize:'23px'}} >Basic</li>
                                     <li className='listprice'><del>$89.9/mo</del></li>
                                     <li className='olstyle' style={{fontSize:'20px'}} >$9.99/mo</li>
-                                    <button style={{ marginLeft: '20px', backgroundColor: 'rgb(244, 213, 156)', border: '0', borderRadius: '3px' }}>Get Started &#10141;</button>
+                                    <button className='getstrbut' style={{ backgroundColor: 'rgb(244, 213, 156)'}}>Get Started &#10141;</button>
                                     <hr style={{ marginRight: '20px' }} />
                                 </ol>
                                 <ol className='ol'>
@@ -40,7 +40,7 @@ function Data() {
                                     <li className='olstyle ' style={{ fontSize:'23px'}} >Standard</li>
                                     <li className='listprice'><del>$189.99/mo</del></li>
                                     <li className='olstyle' style={{fontSize:'20px'}}>$99.99/mo</li>
-                                    <button style={{ marginLeft: '20px', backgroundColor: 'rgb(244, 147, 127)', border: '0', borderRadius: '3px' }}>Get Started &#10141;</button>
+                                    <button className='getstrbut' style={{backgroundColor: 'rgb(244, 147, 127)'}}>Get Started &#10141;</button>
                                     <hr style={{  marginRight: '20px' }} />
                                 </ol>
                                 <ol className='ol'>
@@ -57,7 +57,7 @@ function Data() {
                                     <li className='olstyle ' style={{ fontSize:'23px'}} >Premium</li>
                                     <li className='listprice'><del>$389.9/mo</del></li>
                                     <li className='olstyle' style={{fontSize:'20px'}}>$199.99/mo</li>
-                                    <button style={{ marginLeft: '20px', backgroundColor: 'rgb(213, 108, 245)', border: '0', borderRadius: '3px' }}>Get Started &#10141;</button>
+                                    <button className='getstrbut' style={{backgroundColor: 'rgb(213, 108, 245)'}}>Get Started &#10141;</button>
                                     <hr style={{ marginRight: '20px' }} />
                                 </ol>
                                 <ol className='ol'>

@@ -26,7 +26,6 @@ function SideBar() {
         <Menu
           defaultOpenKeys={['1']}
           defaultSelectedKeys={['1']}
-          style={{ width: 182 }}
           className='sidebarmain'
         >
           <div className='sidebar_maindiv'>
